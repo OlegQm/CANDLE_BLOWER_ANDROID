@@ -1,0 +1,159 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\olegq\\Desktop\\Candy blowing project app\\CandlyBlow\\CandlyBlow.Android\\CandlyBlow.Android.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\olegq\\Desktop\\Candy blowing project app\\CandlyBlow\\CandlyBlow.Android\\CandlyBlow.Android.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\olegq\\Desktop\\Candy blowing project app\\CandlyBlow\\CandlyBlow.Android\\CandlyBlow.Android.csproj",
+        "projectName": "CandlyBlow.Android",
+        "projectPath": "C:\\Users\\olegq\\Desktop\\Candy blowing project app\\CandlyBlow\\CandlyBlow.Android\\CandlyBlow.Android.csproj",
+        "packagesPath": "C:\\Users\\olegq\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\olegq\\Desktop\\Candy blowing project app\\CandlyBlow\\CandlyBlow.Android\\obj\\",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\olegq\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "monoandroid11.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "monoandroid11.0": {
+            "projectReferences": {
+              "C:\\Users\\olegq\\Desktop\\Candy blowing project app\\CandlyBlow\\CandlyBlow\\CandlyBlow.csproj": {
+                "projectPath": "C:\\Users\\olegq\\Desktop\\Candy blowing project app\\CandlyBlow\\CandlyBlow\\CandlyBlow.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "monoandroid11.0": {
+          "dependencies": {
+            "JaybirdLabs.Chirp": {
+              "target": "Package",
+              "version": "[0.7.1, )"
+            },
+            "SkiaSharp.Views.Forms": {
+              "target": "Package",
+              "version": "[1.68.3, )"
+            },
+            "SkiaSharp.Waveform": {
+              "target": "Package",
+              "version": "[0.2.0, )"
+            },
+            "Xam.Plugin.SimpleAudioPlayer": {
+              "target": "Package",
+              "version": "[1.6.0, )"
+            },
+            "Xamarin.Essentials": {
+              "target": "Package",
+              "version": "[1.6.1, )"
+            },
+            "Xamarin.Forms": {
+              "target": "Package",
+              "version": "[5.0.0.2012, )"
+            }
+          }
+        }
+      }
+    },
+    "C:\\Users\\olegq\\Desktop\\Candy blowing project app\\CandlyBlow\\CandlyBlow\\CandlyBlow.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\olegq\\Desktop\\Candy blowing project app\\CandlyBlow\\CandlyBlow\\CandlyBlow.csproj",
+        "projectName": "CandlyBlow",
+        "projectPath": "C:\\Users\\olegq\\Desktop\\Candy blowing project app\\CandlyBlow\\CandlyBlow\\CandlyBlow.csproj",
+        "packagesPath": "C:\\Users\\olegq\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\olegq\\Desktop\\Candy blowing project app\\CandlyBlow\\CandlyBlow\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\olegq\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "targetAlias": "netstandard2.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "targetAlias": "netstandard2.0",
+          "dependencies": {
+            "JaybirdLabs.Chirp": {
+              "target": "Package",
+              "version": "[0.7.1, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "SkiaSharp.Views.Forms": {
+              "target": "Package",
+              "version": "[1.68.3, )"
+            },
+            "SkiaSharp.Waveform": {
+              "target": "Package",
+              "version": "[0.2.0, )"
+            },
+            "Xam.Plugin.SimpleAudioPlayer": {
+              "target": "Package",
+              "version": "[1.6.0, )"
+            },
+            "Xamarin.Essentials": {
+              "target": "Package",
+              "version": "[1.6.1, )"
+            },
+            "Xamarin.Forms": {
+              "target": "Package",
+              "version": "[5.0.0.2012, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.416\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
